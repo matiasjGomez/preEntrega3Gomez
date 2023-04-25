@@ -1,0 +1,115 @@
+header li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.navbar-nav li a {
+  color: whitesmoke;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ffaabb;
+}
+
+.navbar-nav li a:hover {
+  transition: 1s;
+  color: #ffaabb;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffaabb;
+}
+
+.p10 {
+  padding: 10px;
+}
+
+.p11 {
+  padding: 11px;
+}
+
+.p12 {
+  padding: 12px;
+}
+
+.p13 {
+  padding: 13px;
+}
+
+.p14 {
+  padding: 14px;
+}
+
+.p15 {
+  padding: 15px;
+}
+
+.p16 {
+  padding: 16px;
+}
+
+.p17 {
+  padding: 17px;
+}
+
+.p18 {
+  padding: 18px;
+}
+
+.p19 {
+  padding: 19px;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+body {
+  --s: 80px;
+  --c: #542437;
+  --_g:
+    #0000 calc(-650%/13) calc(50%/13),var(--c) 0 calc(100%/13),
+    #0000 0 calc(150%/13),var(--c) 0 calc(200%/13),
+    #0000 0 calc(250%/13),var(--c) 0 calc(300%/13);
+  --_g0: repeating-linear-gradient( 45deg,var(--_g));
+  --_g1: repeating-linear-gradient(-45deg,var(--_g));
+  background: var(--_g0), var(--_g0) var(--s) var(--s), var(--_g1), var(--_g1) var(--s) var(--s) #c0298b;
+  background-size: calc(2 * var(--s)) calc(2 * var(--s));
+}
+
+header {
+  background-color: #231f20;
+}
+
+footer {
+  background-color: #231f20;
+  font-family: "Montserrat", sans-serif;
+}
+
+.list-unstyled li {
+  list-style: none;
+}
+.list-unstyled li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.generalfont {
+  font-family: "Montserrat", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.main-bg {
+  background: #542437;
+  background-position: center;
+  width: 95%;
+  max-width: 1600px;
+  margin: 1.6em auto;
+  border-radius: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

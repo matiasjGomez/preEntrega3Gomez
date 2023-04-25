@@ -1,0 +1,21 @@
+header{
+    li{
+        font-family: $montserrat;
+        font-weight: bold;
+    }
+}
+//navbar
+.navbar-nav li a {
+    color: whitesmoke; 
+  }
+  .navbar-nav .nav-link.active {
+    color: #ffaabb; 
+  }
+
+  .navbar-nav li a:hover {
+    transition: 1s;
+    color: #ffaabb;
+  }
+  .navbar-toggler-icon {
+    background-color:#ffaabb;
+  }

@@ -1,0 +1,6 @@
+//paddings
+@for $i from 10 through 20 {
+    .p#{$i}{
+        padding: 1px * $i
+    }
+}
