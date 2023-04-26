@@ -1,0 +1,9 @@
+@mixin fonts($fonts:$montserrat) {
+    color: whitesmoke;
+    font-size: 15px;
+    inline-size: 1.6px
+}
+
+.p{
+    @include fonts($fonts:$montserrat)
+}
