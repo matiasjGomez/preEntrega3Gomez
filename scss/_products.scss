@@ -1,0 +1,21 @@
+.card {
+    margin-bottom: 20px;
+  
+    img {
+      height: 200px;
+      object-fit: cover;
+    }
+  
+    .btn-primary {
+      margin-top: 10px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .col-md-4 {
+      flex-basis: 0;
+      flex-grow: 1;
+      max-width: 33.3333%;
+    }
+  }
+  

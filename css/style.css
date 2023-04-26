@@ -121,7 +121,22 @@ footer .container {
   width: 90%;
   max-width: 1000px;
   margin: 1.6em auto;
-  background-color: rgba(84, 36, 55, 0.568627451);
+  background-color: rgba(84, 36, 55, 0.569);
+}
+
+.main-products {
+  width: 90%;
+  max-width: 1000px;
+  margin: 1.6em auto;
+}
+
+.main-contact {
+  width: 90%;
+  max-width: 1600px;
+  margin: 1.6em auto;
+  padding: 10px;
+  background-color: rgba(84, 36, 55, 0.569);
+  border-radius: 15px;
 }
 
 .card {
@@ -146,6 +161,25 @@ footer .container {
 }
 .card .btn {
   border-radius: 0;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+.card .btn-primary {
+  margin-top: 10px;
+}
+
+@media (min-width: 992px) {
+  .col-md-4 {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 33.3333%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
