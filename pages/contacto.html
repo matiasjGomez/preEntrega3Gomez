@@ -61,26 +61,51 @@
 </div>
 
 <main class="main-contact">
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label text-white generalfont text-uppercase">Nombre</label>
-    <input type="email" class="form-control generalfont" id="exampleFormControlInput1" placeholder="Escribí acá tu nombre">
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label text-white generalfont text-uppercase">Correo Electrónico</label>
-    <input type="email" class="form-control generalfont" id="exampleFormControlInput1" placeholder="tucorreo@ejemplo.com">
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label text-white generalfont text-uppercase">Teléfono</label>
-    <input type="email" class="form-control generalfont" id="exampleFormControlInput1" placeholder="Escribí acá tu teléfono">
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label text-white generalfont text-uppercase">Escribí por cual medio preferís que nos comuniquemos</label>
-    <textarea class="form-control generalfont" id="exampleFormControlTextarea1" rows="3" placeholder="Podés escribir también sobre cualquier duda o inquetud que tengas"></textarea>
-  </div>
-  <div class="col-auto">
-    <button type="submit" class="btn btn-primary mb-3 generalfont">Enviar</button>
-  </div>
+  <form action="#">
+    <!-- Add the "form" tag and set the action and method attributes accordingly -->
+    <div class="mb-3">
+      <label for="name-input" class="form-label text-white generalfont text-uppercase">Nombre</label>
+      <input type="text" class="form-control generalfont" id="name-input" name="name" placeholder="Escribí acá tu nombre" required>
+    </div>
+    <div class="mb-3">
+      <label for="email-input" class="form-label text-white generalfont text-uppercase">Correo Electrónico</label>
+      <input type="email" class="form-control generalfont" id="email-input" name="email" placeholder="tucorreo@ejemplo.com" required>
+    </div>
+    <div class="mb-3">
+      <label for="phone-input" class="form-label text-white generalfont text-uppercase">Teléfono</label>
+      <input type="tel" class="form-control generalfont" id="phone-input" name="phone" placeholder="Escribí acá tu teléfono" required>
+    </div>
+    <div class="mb-3">
+      <h6 class="text-white generalfont text-uppercase mb-3">Elegí el medio de preferencia para que nos comuniquemos</h6>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="contact-preference" id="contact-preference-email" value="email" checked>
+        <label class="form-check-label text-white generalfont text-uppercase" for="contact-preference-email">
+          Correo electrónico
+        </label>
+      </div>
+      <div class="form-check mb-3">
+        <input class="form-check-input mt-3" type="radio" name="contact-preference" id="contact-preference-phone" value="phone">
+        <label class="form-check-label text-white generalfont text-uppercase mt-3" for="contact-preference-phone">
+          Teléfono
+        </label>
+      </div>
+    </div>
+    <div>
+      <h6 class="text-white generalfont text-uppercase">Seleccioná tu archivo</h6>
+      <div class="input-group mb-3">
+        <input type="file" class="form-control" id="file-input" name="file">
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="message-input" class="form-label text-white generalfont text-uppercase">Comentanos sobre tu pedido</label>
+      <textarea class="form-control generalfont" id="message-input" name="message" rows="3" placeholder="Escribí cualquier duda o inquietud que tengas" required></textarea>
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary mb-3 generalfont">Enviar</button>
+    </div>
+  </form>
 </main>
+
 
 <footer class="container-fuid text-white align-content-center">
     <div class="container py-5">
