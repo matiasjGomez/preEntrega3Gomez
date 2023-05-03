@@ -81,11 +81,6 @@ header {
   background-color: #231f20;
 }
 
-footer {
-  background-color: #231f20;
-  font-family: "Montserrat", sans-serif;
-}
-
 .list-unstyled li {
   list-style: none;
 }
@@ -100,6 +95,19 @@ footer .container {
   justify-content: space-evenly;
 }
 
+footer {
+  background-color: #231f20;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .stickyfooter {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 500px;
+  }
+}
 .generalfont {
   font-family: "Montserrat", sans-serif;
 }
